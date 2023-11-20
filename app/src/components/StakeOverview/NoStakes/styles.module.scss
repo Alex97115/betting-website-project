@@ -1,0 +1,33 @@
+@import '../../../styles/all';
+
+.noStakesWrapper {
+  background-color: $colorBlueDarkShade;
+  padding: 64px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+
+  .noStakesMessage {
+    p {
+      margin-bottom: 25px;
+      font-family: $fontRegular;
+    }
+
+    strong {
+      font-family: $fontBold;
+      display: block;
+      margin-bottom: 25px;
+      word-break: break-all;
+    }
+  }
+
+  .noStakesImages {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    
+  }
+
+  @media all and (max-width: $screen-sm) {
+    padding: 15px;
+  }
+}

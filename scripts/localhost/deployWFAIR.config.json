@@ -1,0 +1,14 @@
+{
+  "wallfairTotalSupply": "1000000000",
+  "transferRequests" :
+    [
+      {
+        "name": "Wallfair Hot Sale Wallet #1",
+        "amount": "95000000"
+      },
+      {
+        "name": "DEX Liquidity #3",
+        "amount": "2500000"
+      }
+    ]
+}
